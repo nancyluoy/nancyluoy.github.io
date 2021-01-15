@@ -39,10 +39,12 @@ h5,
 h6{
     /* navy blue */
     color:#192a3e;
+    font-family:'Open Sans', sans-serif;
 }
 .ttext h1{
     font-size: 45px;
     padding-right:5%;
+    
     /* color:#192a3e; */
 }
 .ttext h3{
@@ -86,3 +88,23 @@ h6{
 .ttext .no-bullets{
     list-style-type: none;
 }
+
+/* footer */
+footer {
+    padding-top: 50px;
+    padding-bottom: 2px;
+    /* border-top:1px solid#d9d9e4 ; */
+  }
+  footer h6{
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  
+  footer .contact{
+    border-right:2px solid#d9d9e4 ;
+  }
+  
+  .align-end{
+    text-align: end;
+  }
+  
