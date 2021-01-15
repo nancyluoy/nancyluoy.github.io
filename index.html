@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <base href="/">
+    <link rel="icon" href="./img/logo.svg">
+    <meta name="author" content="Yi Luo">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- general stylesheet -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- navbar stylesheet -->
+    <link rel="stylesheet" href="./css/navbar.css">
+    <!-- home stylesheet -->
+    <link rel="stylesheet" href="./css/home.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@300&family=Titillium+Web&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- -------------------nav bar---------------------- -->
+    <nav class="navbar navbar-expand-md navbar-light scrolling-navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img width="50" alt="Logo" src="./img/logo.svg">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="links navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./files/Resume.pdf" target="_blank">
+                            Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- -------------------homepage content---------------------- -->
+    <div class="container home">
+        <!-- Header -->
+        <div class="intro-header">
+            <div class="rellax fade-scroll" data-rellax-speed="-4">
+                <h1 class="animated-header">Hi, I'm Yi!</h1>
+                <h1 class="mobile-header">Hi, I’m Yi!</h1>
+                <h2>I am a product designer based in Foshan.</h2>
+            </div>
+        </div>
+        <!-- Works -->
+        <section style="padding-top:0px;" id="works">
+            <div class="grid-2-column">
+                <a href="t-text.html" id="boundless">
+                    <div class="portfolio-grid-item">
+                        <div class="img-wrapper-portfolio">
+                            <img onmouseover="imgHover()" onmouseout="imgHoverOut()" loading="lazy"
+                                alt="T-Text profile picture" src="img/ttext_profile.png" class="project-hover"></div>
+                        <h3>T-Text</h3>
+                        <h4>OCT - DEC 2020</h4>
+                    </div>
+                </a>
+                <a href="hungry-us.html" id="boundless">
+                    <div class="portfolio-grid-item">
+                        <div class="img-wrapper-portfolio">
+                            <img onmouseover="imgHover()" onmouseout="imgHoverOut()" loading="lazy" alt="Hungry US logo"
+                                src="img/hungryus_profile.jpg" class="project-hover">
+                        </div>
+                        <h3>HungryUS Redesign</h3>
+                        <h4>JAN - MAR 2019</h4>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- -------------------footer---------------------- -->
+    <footer class="container page-footer">
+        <div class="row">
+            <div class="col-sm-2 contact">
+                <h6>Email</h6>
+            </div>
+            <div class="col-sm-4">
+                <h6 class="small">nancyluoy@gmail.com</h6>
+                <h6 class="small">nancyluoy@qq.com</h6>
+            </div>
+            <div class="col-sm-2 contact">
+                <h6>Phone</h6>
+            </div>
+            <div class="col-sm-4">
+                <h6 class="small">(+1) 626-223-3104</h6>
+                <h6 class="small">(+86) 13923105626</h6>
+            </div>
+        </div>
+        <br>
+        <p>© Yi Luo 2021</p>
+    </footer>
+
+</body>
+
+</html>
