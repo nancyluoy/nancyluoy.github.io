@@ -1,16 +1,4 @@
-#fader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999998;
-  pointer-events: none;
-  background: #161618;
-  animation-duration: .3s;
-  animation-timing-function: ease-in-out
-}
-
+/* animation */
 @keyframes fade-out {
   from {
     opacity: 1
@@ -29,6 +17,71 @@
   to {
     opacity: 1
   }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes color_change {
+  from {
+    color: #e24329
+  }
+
+  to {
+    color: #e9edea
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20%)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0)
+  }
+}
+
+#fader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999998;
+  pointer-events: none;
+  background: #161618;
+  animation-duration: .3s;
+  animation-timing-function: ease-in-out
 }
 
 #fader.fade-out {
@@ -151,7 +204,7 @@ h1 {
   margin-top: 0;
   margin-bottom: 20px;
   user-select: none;
-  font-size: 3em;
+  font-size: 45px;
   letter-spacing: -.02em;
   line-height: .9em;
   font-weight: 900;
@@ -159,13 +212,13 @@ h1 {
 
 h2 {
   font-weight: 900;
-  font-size: 3.157em;
+  font-size: 35px;
   line-height: 1.3em;
   letter-spacing: -.03em
 }
 
 h3 {
-  font-size: 2.369em;
+  font-size: 25px;
   font-weight: 550;
   padding:10px 20px 0px;
   line-height: 1.3em;
@@ -175,23 +228,11 @@ h3 {
   h2 {
     font-size: 2.369em
   }
-}
-
-@media (max-width:992px) {
   h3 {
     font-size: 1.777em
   }
 }
 
-h4 {
-  font-size: 1.777em;
-  font-weight: 400
-}
-
-h5 {
-  font-size: 1.333em;
-  font-weight: 400
-}
 
 p {
   font-family:'Open Sans', sans-serif;
@@ -357,54 +398,18 @@ video {
   }
 }
 
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0
-  }
-
-  100% {
-    opacity: 1
-  }
-}
 
 .letter {
   animation: 1.5s ease-out 0s 1 color_change
 }
 
-@keyframes color_change {
-  from {
-    color: #e24329
-  }
-
-  to {
-    color: #e9edea
-  }
-}
-
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0
-  }
-
-  100% {
-    opacity: 1
-  }
-}
 
 .animated-header {
   animation-delay: .6s;
   animation: 2.5s ease-out 0s 1 fadeInAnimation
 }
 
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0
-  }
 
-  100% {
-    opacity: 1
-  }
-}
 
 @media (max-width:768px) {
   .animated-header {
@@ -457,17 +462,7 @@ a:hover {
   animation: .6s ease-out 0s 1 slideUp
 }
 
-@keyframes slideUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20%)
-  }
 
-  100% {
-    opacity: 1;
-    transform: translateY(0)
-  }
-}
 
 .portfolio-grid-item h5 {
   padding-top: 12px;
