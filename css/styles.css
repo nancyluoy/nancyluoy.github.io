@@ -107,7 +107,7 @@ body {
 footer,
 header,
 nav,
-section{
+section {
   display: block
 }
 
@@ -149,7 +149,7 @@ svg:not(:root) {
 }
 
 button,
-input{
+input {
   color: inherit;
   font: inherit;
   margin: 0
@@ -164,7 +164,7 @@ select {
   text-transform: none
 }
 
-button{
+button {
   -webkit-appearance: button;
   cursor: pointer
 }
@@ -197,7 +197,7 @@ h5,
 h6 {
   /* margin-top: 0;
   margin-bottom: .2em; */
-  font-family:'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -220,7 +220,7 @@ h2 {
 h3 {
   font-size: 25px;
   font-weight: 550;
-  padding:10px 20px 0px;
+  padding: 10px 20px 0px;
   line-height: 1.3em;
 }
 
@@ -228,6 +228,7 @@ h3 {
   h2 {
     font-size: 2.369em
   }
+
   h3 {
     font-size: 1.777em
   }
@@ -235,7 +236,7 @@ h3 {
 
 
 p {
-  font-family:'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-top: 0;
   font-size: 18px;
   line-height: 1.8em
@@ -498,15 +499,16 @@ footer {
   padding-bottom: 2px;
   /* border-top:1px solid#d9d9e4 ; */
 }
-footer h6{
+
+footer h6 {
   font-weight: bolder;
   font-size: 18px;
 }
 
-footer .contact{
-  border-right:2px solid#d9d9e4 ;
+footer .contact {
+  border-right: 2px solid#d9d9e4;
 }
 
-.align-end{
+.align-end {
   text-align: end;
 }

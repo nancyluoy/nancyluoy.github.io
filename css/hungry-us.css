@@ -10,90 +10,106 @@
 
 .hungryus .heading {
     float: left;
-    text-align:end;
+    text-align: end;
     transform: translateY(50%);
-    padding-right:50px;
+    padding-right: 50px;
 }
-.hungryus .purple-bg{
+
+.hungryus .purple-bg {
     /* light purple */
     /* background-color: #f9fafe; */
     background-color: #F0F0FF;
 }
 
-.hungryus .container{
+.hungryus .container {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 .hungryus .section {
     padding: 5% 0px;
-    border-bottom: 1px solid#d9d9e4 ;
+    border-bottom: 1px solid#d9d9e4;
 }
+
 /* Clear floats after image containers */
 .row::after {
     content: "";
     clear: both;
     display: table;
 }
+
 .hungryus h1,
 h2,
 h4,
 h5,
-h6{
+h6 {
     /* navy blue */
     /* color:#192a3e; */
-    color:#100939;
+    color: #100939;
 }
-.hungryus h1{
+
+.hungryus h1 {
     font-size: 35px;
-    
+
     /* color:#192a3e; */
 }
-.hungryus h3{
+
+.hungryus h3 {
     font-size: 20px;
     /* color: #a07352; */
     color: #898ea2;
 }
-.hungryus p{
-    /* color: #898ea2; */
-    color:#9b9bc4;
+
+p {
+    color: #898ea2;
+    font-size: 1.1em;
 }
-.hungryus .description{
+
+.hungryus .description {
     padding-top: 10%;
-    font-size: medium;
 }
-.hungryus .subtitle{
+
+.hungryus .subtitle {
     padding: 20px;
 }
-.hungryus .sm-title{
+
+.hungryus .sm-title {
     text-align: center;
     /* padding: 45px 10% 10px; */
-    padding:5px;
+    padding: 5px;
 }
-.hungryus .title{
+
+.hungryus .title {
     text-align: center;
     padding: 45px 10% 15px;
     font-size: 25px;
 }
-.hungryus .centered_text{
+
+.hungryus .centered_text {
     text-align: center;
 }
-.hungryus .centered_list{
+
+.hungryus .centered_list {
     padding-left: 10vw;
     padding-right: 10vw;
 }
+
 .hungryus li {
     /* padding: 3px; */
     /* color: #898ea2; */
-    color:#241B6B;
+    color: #241B6B;
     font-size: 18px;
 }
-.hungryus .no-bullets{
+
+.hungryus .no-bullets {
     list-style-type: none;
 }
-.hungryus .img-padding{
-    padding:5%;
+
+.hungryus .img-padding {
+    padding: 5%;
 }
-.hungryus .img-center{
+
+.hungryus .img-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -104,17 +120,17 @@ footer {
     padding-top: 50px;
     padding-bottom: 2px;
     /* border-top:1px solid#d9d9e4 ; */
-  }
-  footer h6{
+}
+
+footer h6 {
     font-weight: bolder;
     font-size: 18px;
-  }
-  
-  footer .contact{
-    border-right:2px solid#d9d9e4 ;
-  }
-  
-  .align-end{
+}
+
+footer .contact {
+    border-right: 2px solid#d9d9e4;
+}
+
+.align-end {
     text-align: end;
-  }
-  
+}

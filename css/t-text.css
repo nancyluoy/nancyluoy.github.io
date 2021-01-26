@@ -4,25 +4,28 @@
     padding-bottom: 50px;
 }
 
-.ttext .header img{
-    padding:0px 5%;
+.ttext .header img {
+    padding: 0px 5%;
 }
 
 
 .ttext .heading {
     float: left;
-    text-align:end;
+    text-align: end;
     transform: translateY(40%);
-    padding-right:50px;
+    padding-right: 50px;
 }
-.ttext .blue-bg{
+
+.ttext .blue-bg {
     background-color: #EAF7FD;
 }
-.ttext .container{
+
+.ttext .container {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.ttext .section{
+
+.ttext .section {
     padding: 30px 0px;
 }
 
@@ -32,60 +35,73 @@
     clear: both;
     display: table;
 }
+
 .ttext h1,
 h2,
 h4,
 h5,
-h6{
+h6 {
     /* navy blue */
-    color:#192a3e;
-    font-family:'Open Sans', sans-serif;
+    color: #192a3e;
+    font-family: 'Open Sans', sans-serif;
 }
-.ttext h1{
+
+.ttext h1 {
     font-size: 45px;
-    padding-right:5%;
-    
+    padding-right: 5%;
+
     /* color:#192a3e; */
 }
-.ttext h3{
+
+.ttext h3 {
     font-size: 20px;
     /* color: #a07352; */
     color: #898ea2;
     padding-right: 5%;
 }
-.ttext p{
+
+.ttext p {
     color: #898ea2;
+    font-size: 1.1em;
 }
 
-.ttext .mockups{
-    padding:60px 5%;
+.ttext .mockups {
+    padding: 60px 5%;
 }
-.ttext img{
+
+.ttext img {
     padding: 5%;
 }
-.ttext .subtitle{
+
+.ttext .subtitle {
     padding: 20px;
 }
-.ttext .sm-title{
+
+.ttext .sm-title {
     /* padding: 45px 10% 10px; */
-    padding:5px;
+    padding: 5px;
 }
-.ttext .title{
+
+.ttext .title {
     padding: 45px 10% 15px;
 }
-.ttext .centered_text{
+
+.ttext .centered_text {
     text-align: center;
 }
-.ttext .centered_list{
+
+.ttext .centered_list {
     padding-left: 4vw;
     padding-right: 4vw;
 }
+
 .ttext li {
     /* padding: 3px; */
     color: #898ea2;
     font-size: 18px;
 }
-.ttext .no-bullets{
+
+.ttext .no-bullets {
     list-style-type: none;
 }
 
@@ -94,17 +110,17 @@ footer {
     padding-top: 50px;
     padding-bottom: 2px;
     /* border-top:1px solid#d9d9e4 ; */
-  }
-  footer h6{
+}
+
+footer h6 {
     font-weight: bolder;
     font-size: 18px;
-  }
-  
-  footer .contact{
-    border-right:2px solid#d9d9e4 ;
-  }
-  
-  .align-end{
+}
+
+footer .contact {
+    border-right: 2px solid#d9d9e4;
+}
+
+.align-end {
     text-align: end;
-  }
-  
+}

@@ -1,0 +1,96 @@
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.padding {
+    padding: 5% 5%;
+}
+
+
+h1 {
+    font-size: calc(30px + 1vw) !important;
+    padding-top: 10vw !important;
+}
+
+h3 {
+    font-size: calc(20px + 1vw) !important;
+    padding-top: 50px !important;
+}
+
+/* emoji */
+.emoji {
+    font-size: calc(60px + 2vw);
+    text-align: center;
+}
+
+.icon {
+    font-size: 70px;
+}
+
+.emoji::after {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.wave::after {
+    content: '✋';
+    --emoji: '👋';
+    animation-name: twoFrames;
+    animation-duration: 1s;
+}
+
+@keyframes twoFrames {
+    50% {
+        content: var(--emoji);
+    }
+}
+
+@keyframes threeFrames {
+    33.333% {
+        content: var(--emoji-1);
+    }
+
+    66.666% {
+        content: var(--emoji-2);
+    }
+}
+
+.bio {
+    padding: 2% 5%;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 2px;
+    /* border-top:1px solid#d9d9e4 ; */
+}
+
+footer h6 {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+footer .contact {
+    border-right: 2px solid#d9d9e4;
+}
+
+.align-end {
+    text-align: end;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: black;
+}
