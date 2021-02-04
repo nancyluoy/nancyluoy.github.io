@@ -115,6 +115,11 @@ p {
     margin-right: auto;
 }
 
+#back-to-homepage {
+    color: #241B6B;
+    font-size: 30px;
+}
+
 /* footer */
 footer {
     padding-top: 50px;

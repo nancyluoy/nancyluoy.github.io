@@ -105,6 +105,11 @@ h6 {
     list-style-type: none;
 }
 
+#back-to-homepage {
+    color: #192a3e;
+    font-size: 30px;
+}
+
 /* footer */
 footer {
     padding-top: 50px;
