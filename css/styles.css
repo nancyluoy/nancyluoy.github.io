@@ -343,6 +343,10 @@ body {
   font-variant-ligatures: common-ligatures
 }
 
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
 
 *,
 :after,
